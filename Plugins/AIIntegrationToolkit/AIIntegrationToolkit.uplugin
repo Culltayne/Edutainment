@@ -1,0 +1,82 @@
+{
+    "FileVersion": 3,
+    "Version": 1,
+    "VersionName": "2.6.1",
+    "FriendlyName": "AI Integration Toolkit",
+    "Description": "Generative AI toolkit with a modular networking core",
+    "Category": "Generative AI",
+    "CreatedBy": "Knooblegooble",
+    "CreatedByURL": "https://www.kalebknoettgen.com",
+    "DocsURL": "https://knooblegooble.github.io/AIITKDocumentation/",
+    "MarketplaceURL": "https://www.fab.com/listings/00de9273-69c4-4815-b30f-bf38c98c0d43",
+    "FabURL": "com.epicgames.launcher://ue/Fab/product/00de9273-69c4-4815-b30f-bf38c98c0d43",
+    "SupportURL": "https://discord.gg/8sxn547ghm",
+    "EngineVersion": "5.6.0",
+    "CanContainContent": true,
+    "Installed": true,
+    "Modules": [
+        {
+            "Name": "EZUEGPT",
+            "Type": "Runtime",
+            "LoadingPhase": "Default",
+            "PlatformAllowList": [
+                "Win64",
+                "Android"
+            ]
+        },
+        {
+            "Name": "EZUEGPTEditor",
+            "Type": "UncookedOnly",
+            "LoadingPhase": "PreDefault",
+            "PlatformAllowList": [
+                "Win64",
+                "Android"
+            ]
+        },
+        {
+            "Name": "AIITK_NTK_NetworkingToolkit",
+            "Type": "Runtime",
+            "LoadingPhase": "PostConfigInit",
+            "PlatformAllowList": [
+                "Win64",
+                "Android"
+            ]
+        },
+        {
+            "Name": "AIITK_NTK_NetworkingToolkitEditor",
+            "Type": "UncookedOnly",
+            "LoadingPhase": "PostConfigInit",
+            "TargetAllowList": [
+                "Editor"
+            ],
+            "PlatformAllowList": [
+                "Win64",
+                "Android"
+            ]
+        }
+    ],
+    "Plugins": [
+        {
+            "Name": "OnlineSubsystemUtils",
+            "Enabled": true
+        },
+        {
+            "Name": "OnlineSubsystem",
+            "Enabled": true
+        },
+        {
+            "Name": "AudioCapture",
+            "Enabled": true
+        },
+        {
+            "Name": "Synthesis",
+            "Enabled": true
+        },
+        {
+            "Name": "ProceduralMeshComponent",
+            "Enabled": true
+        }
+    ],
+    "IsBetaVersion": false,
+    "IsExperimentalVersion": false
+}
