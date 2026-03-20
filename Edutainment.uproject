@@ -69,6 +69,16 @@
 		{
 			"Name": "MetaHumanSDK",
 			"Enabled": false
+		},
+		{
+			"Name": "AssetsCleaner",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/3caab7c6e81f449296989122c043ae21"
+		},
+		{
+			"Name": "SimplePathTracer",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/6133f776d65d40a694b5fbb01dc1141a"
 		}
 	]
 }
